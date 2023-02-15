@@ -16,10 +16,10 @@ public class chleopatranaturalgold {
 	}
 	//methods
 	public void clickquantity() {
-		quantity.submit();
+		quantity.click();
 	}
 	public void clickaddtocart() {
-		addtocart.click();
+		addtocart.submit();
 	}
 
 }
