@@ -6,8 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class chleopatranaturalgold {
-	//@FindBy(xpath="(//*[contains(@class,'QuantitySelector__Button Link Link--secondary')])[2]")
-	//WebElement quantity ;
+	@FindBy(xpath="(//*[contains(@class,'QuantitySelector__Button Link Link--secondary')])[2]")
+	WebElement quantity ;
 	@FindBy(xpath="//*[text()='Add to cart']")
 	WebElement addtocart ;
 	//constructor
