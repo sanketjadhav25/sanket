@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class w3createawebsite {
 	@FindBy(xpath="//button[@class='_1VfsI _OD95i _3_H0V login']")
 	private WebElement login;
-	 constructor
+	 //constructor
 	public  w3createawebsite (WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
