@@ -16,7 +16,7 @@ public class chleopatranaturalgold {
 	}
 	//methods
 	public void clickquantity() {
-		quantity.click();
+		quantity.submit();
 	}
 	public void clickaddtocart() {
 		addtocart.click();
