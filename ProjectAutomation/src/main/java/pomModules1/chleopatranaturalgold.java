@@ -19,7 +19,7 @@ public class chleopatranaturalgold {
 		quantity.click();
 	}
 	public void clickaddtocart() {
-		addtocart.submit();
+		addtocart.click();
 	}
 
 }
