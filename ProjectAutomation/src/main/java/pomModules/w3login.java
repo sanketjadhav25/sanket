@@ -9,7 +9,8 @@ public class w3login {
 	@FindBy(xpath="//*[text()=' Sign up']")
 	private WebElement signup;
 	
-	@FindBy(xpath="//*[@id='modalusername']")
+	//@FindBy(xpath="//*[@id='modalusername']")
+	@FindBy(xpath="//*[@id='modalusername123']")
 	private WebElement email;
 	@FindBy(xpath="//*[@id='new-password']")
 	private WebElement pass;
